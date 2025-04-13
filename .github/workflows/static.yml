@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Para meu Amorzão [</title>
+
+        <style>
+        body {
+            background-image: url('us.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+            color: #ff369B;
+            font-family: 'Segoe UI', sans-serif;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .fundo {
+      background-color: rgba(255, 255, 255, 0.7); /* branco com transparência */
+      padding: 40px;
+      border-radius: 20px;
+      max-width: 700px;
+      margin: auto;
+      margin-top: 60px;
+        }
+
+      h1 {
+        font: size 3em;
+        margin-bottom: 10px;
+      }
+      
+      p {
+        font-size: 1.5em;
+        max-height: 600px;
+        margin: auto;
+      }
+
+        </style>
+    </head>
+    <body>
+        <div class ="fundo">
+        <h1>Para meu Amorzão</h1>
+
+        <button class="botão-amor" onclick="mostrarFoto()"> Clique aqui ❤️</button>
+        <img id="foto-surpresa" src="lindona.jpeg" style="display: none; margin-top: 20px; max-width: 100%; width: 400px; border-radius: 20px;">
+        <p>
+            Espero que goste meu bem.<br>
+            Ainda estou começando a mexer nisso.<br>
+            Tenho certeza que as próximas serão melhores.
+        </p>
+    </div>
+    <script>
+        function mostrarFoto() {
+          const foto = document.getElementById('foto-surpresa');
+          foto.style.display = 'block';
+        }
+        </script>
+</body> 
+</html>
